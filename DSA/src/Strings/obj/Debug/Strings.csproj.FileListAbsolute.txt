@@ -1,0 +1,7 @@
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\bin\Debug\Strings.exe.config
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\bin\Debug\Strings.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\bin\Debug\Strings.pdb
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\obj\Debug\Strings.csprojAssemblyReference.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\obj\Debug\Strings.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Strings\obj\Debug\Strings.pdb

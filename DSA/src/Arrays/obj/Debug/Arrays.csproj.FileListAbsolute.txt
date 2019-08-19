@@ -1,0 +1,7 @@
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\bin\Debug\Arrays.exe.config
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\bin\Debug\Arrays.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\bin\Debug\Arrays.pdb
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\obj\Debug\Arrays.csprojAssemblyReference.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\obj\Debug\Arrays.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Arrays\obj\Debug\Arrays.pdb

@@ -1,0 +1,7 @@
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\bin\Debug\Recursion.exe.config
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\bin\Debug\Recursion.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\bin\Debug\Recursion.pdb
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\obj\Debug\Recursion.csprojAssemblyReference.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\obj\Debug\Recursion.exe
+E:\GIT\Data-Structures-and-Algorithms\DSA\src\Recursion\obj\Debug\Recursion.pdb
