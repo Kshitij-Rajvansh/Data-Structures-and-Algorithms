@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\recursion\\recursion.csproj": {}
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Recursion\\recursion.csproj": {}
   },
   "projects": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\recursion\\recursion.csproj": {
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Recursion\\recursion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\recursion\\recursion.csproj",
+        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Recursion\\recursion.csproj",
         "projectName": "recursion",
-        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\recursion\\recursion.csproj",
+        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Recursion\\recursion.csproj",
         "packagesPath": "C:\\Users\\kshrajva\\.nuget\\packages\\",
-        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\recursion\\obj\\",
+        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Recursion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kshrajva\\AppData\\Roaming\\NuGet\\NuGet.Config",

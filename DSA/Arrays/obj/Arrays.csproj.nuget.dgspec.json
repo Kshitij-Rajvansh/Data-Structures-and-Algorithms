@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\arrays\\Arrays.csproj": {}
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Arrays\\Arrays.csproj": {}
   },
   "projects": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\arrays\\Arrays.csproj": {
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Arrays\\Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\arrays\\Arrays.csproj",
+        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Arrays\\Arrays.csproj",
         "projectName": "Arrays",
-        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\arrays\\Arrays.csproj",
+        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Arrays\\Arrays.csproj",
         "packagesPath": "C:\\Users\\kshrajva\\.nuget\\packages\\",
-        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\dsa\\arrays\\obj\\",
+        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kshrajva\\AppData\\Roaming\\NuGet\\NuGet.Config",
