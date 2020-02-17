@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
+using System.Text;
 
 namespace Arrays
 {
@@ -22,12 +24,21 @@ namespace Arrays
 
             // PrintSumPair(arr2, 17);
 
-            string str = "!abbac@ddc";
-            FirstNonRepeatingSubString(str);
+            //string str = "abz";
+            // FirstNonRepeatingSubStringOnce(str);
+
+            int[] arr = new int[] {1,2,3,4,5};
+            RotateRightByK(arr, 1);
+
+            foreach (int item in arr)
+            {
+                Console.Write(item + " , ");
+            }
 
             Console.ReadLine();
         }
 
+        #region Function to sort the array of 0's , 1's and 2's
         public static int[] SortOneAndtwo(int[] arr)
         {
             int j, countOne = 0, countTwo = 0, countZero = 0;
@@ -71,7 +82,9 @@ namespace Arrays
 
             return arr;
         }
+        #endregion
 
+        #region Function to print the pairs whose sum is equal to given sum in an ordered array
         public static void PrintSumPair(int[] arr, int sum)
         {
             int start = 0;
@@ -94,7 +107,9 @@ namespace Arrays
                 }
             }
         }
+        #endregion
 
+        #region Function to print the first non repeating character in string
         public static void FirstNonRepeatingSubString(string str)
         {
             int[] check = new int[256];
@@ -113,15 +128,124 @@ namespace Arrays
                 }
             }
         }
+        #endregion
 
+        #region Function to print the first non repeating character in string by iterarting the string once
         public static void FirstNonRepeatingSubStringOnce(string str)
         {
-            int[] check = new int[256];
+            int[] check = Enumerable.Repeat(-1, 256).ToArray();
+
+            int MinVal = Int32.MaxValue;
 
             for(int i = 0; i < str.Length; i++)
             {
-                check[(int)str[i]]++;
+                if(check[(int)str[i]] == -1)
+                {
+                    check[(int)str[i]] = i;
+                }
+                else
+                {
+                    check[(int)str[i]] = -5;
+                }
+            }
+
+            for(int i = 0; i < check.Length; i++)
+            {
+                if(check[i] >= 0 && check[i] < MinVal)
+                {
+                    MinVal = check[i];
+                }
+            }
+
+            Console.WriteLine(str[MinVal]);
+        }
+        #endregion
+
+        #region Just a test function
+        public static void TestFunction(string str)
+        {
+            int[] arr = new int[26];
+
+            for(int i = 0; i < str.Length; i++)
+            {
+                arr[str[i] - 'a']++;
+            }
+            for(int i = 0; i< arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
             }
         }
+        #endregion
+
+        #region Function to reverse an array in place
+            public static int[] ReverseArray(int[] arr, int low, int high)
+            {
+                int start = low;
+                int end = high;
+
+                while(start <= end)
+                {
+                    int temp = arr[start];
+                    arr[start] = arr[end];
+                    arr[end] = temp;
+                    start++;
+                    end--;
+                }
+
+                return arr;
+            }
+        #endregion
+
+        #region Function to rotate an array left once
+            public static int[] RotateLeftOnce(int[] arr)
+            {
+                int start = 0;
+                int end = arr.Length - 1;
+
+                while(end >= start)
+                {
+                    int temp = arr[start];
+                    arr[start] = arr[end];
+                    arr[end] = temp;
+                    end--;
+                }
+
+                return arr;
+            }
+        #endregion
+
+        #region Function to rotate an array right once
+            public static int[] RotateRightOnce(int[] arr)
+            {
+                int start = 0;
+                int end = arr.Length - 1;
+
+                while (start <= end)
+                {
+                    int temp = arr[start];
+                    arr[start] = arr[end];
+                    arr[end] = temp;
+                    start++;
+                }
+
+                return arr;
+            }
+        #endregion
+
+        #region Function to rotate an array right by k position
+            public static int[] RotateRightByK(int[] arr, int k)
+            {
+                arr = ReverseArray(arr, arr.Length-k, arr.Length-1);
+                arr = ReverseArray(arr, 0, arr.Length-k-1);
+                return ReverseArray(arr, 0, arr.Length-1);
+            }
+        #endregion
+
+        #region unction to rotate an array left by k position
+            public static int[] RotateLeftByK(int[] arr, int k)
+            {
+                
+            }
+        #endregion
     }
 }
