@@ -8,18 +8,22 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr1 = new int[]{1,0,0,2,1,1,0,0,2,1,0,1,0};
+            // int[] arr1 = new int[]{1,0,0,2,1,1,0,0,2,1,0,1,0};
 
-            int[] sortedArr = SortOneAndtwo(arr1);
+            // int[] sortedArr = SortOneAndtwo(arr1);
 
-            foreach(int i in sortedArr)
-            {
-                Console.Write(i + "  ");
-            }
+            // foreach(int i in sortedArr)
+            // {
+            //     Console.Write(i + "  ");
+            // }
 
-            int[] arr2 = new int[]{2,4,7,10,15,25};
+            // Console.WriteLine("\n======================================================\n");
+            // int[] arr2 = new int[]{2,4,7,10,15,25};
 
-            PrintSumPair(arr2, 17);
+            // PrintSumPair(arr2, 17);
+
+            string str = "!abbac@ddc";
+            FirstNonRepeatingSubString(str);
 
             Console.ReadLine();
         }
@@ -91,6 +95,33 @@ namespace Arrays
             }
         }
 
-        
+        public static void FirstNonRepeatingSubString(string str)
+        {
+            int[] check = new int[256];
+
+            for(int i = 0; i < str.Length; i++)
+            {
+                check[(int)str[i]]++;
+            }
+
+            for(int i = 0; i < str.Length; i++)
+            {
+                if(check[(int)str[i]] == 1)
+                {
+                    Console.WriteLine(str[i]);
+                    break;
+                }
+            }
+        }
+
+        public static void FirstNonRepeatingSubStringOnce(string str)
+        {
+            int[] check = new int[256];
+
+            for(int i = 0; i < str.Length; i++)
+            {
+                check[(int)str[i]]++;
+            }
+        }
     }
 }
