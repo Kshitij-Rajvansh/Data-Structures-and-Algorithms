@@ -28,7 +28,7 @@ namespace Arrays
             // FirstNonRepeatingSubStringOnce(str);
 
             int[] arr = new int[] {1,2,3,4,5};
-            RotateRightByK(arr, 1);
+            RotateLeftByK(arr, 4);
 
             foreach (int item in arr)
             {
@@ -241,10 +241,10 @@ namespace Arrays
             }
         #endregion
 
-        #region unction to rotate an array left by k position
+        #region Function to rotate an array left by k position
             public static int[] RotateLeftByK(int[] arr, int k)
             {
-                
+                return RotateRightByK(arr, arr.Length - k);
             }
         #endregion
     }
