@@ -10,30 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            // int[] arr1 = new int[]{1,0,0,2,1,1,0,0,2,1,0,1,0};
-
-            // int[] sortedArr = SortOneAndtwo(arr1);
-
-            // foreach(int i in sortedArr)
-            // {
-            //     Console.Write(i + "  ");
-            // }
-
-            // Console.WriteLine("\n======================================================\n");
-            // int[] arr2 = new int[]{2,4,7,10,15,25};
-
-            // PrintSumPair(arr2, 17);
-
-            //string str = "abz";
-            // FirstNonRepeatingSubStringOnce(str);
-
             int[] arr = new int[] {1,2,3,4,5};
-            RotateLeftByK(arr, 4);
-
-            foreach (int item in arr)
-            {
-                Console.Write(item + " , ");
-            }
+            SubArrayWithSum(arr,7);
 
             Console.ReadLine();
         }
@@ -245,6 +223,58 @@ namespace Arrays
             public static int[] RotateLeftByK(int[] arr, int k)
             {
                 return RotateRightByK(arr, arr.Length - k);
+            }
+        #endregion
+
+        #region Function to print pairs whose product is divisible by a given number
+            public static void PrintProdPairs(int[] arr, int k)
+            {
+                int start = 0;
+                int end = arr.Length-1;
+
+                while(start <= end)
+                {
+                    int prod = arr[start] * arr[end];
+
+                    if(prod % k == 0)
+                    {
+                        Console.WriteLine(arr[start] + " , " + arr[end]);
+                        start++;
+                        
+                    }
+                    else
+                    {
+                        end--;
+                    }
+                }
+            }
+        #endregion
+
+        #region Function to find a sub-array with the given sum
+            public static void SubArrayWithSum(int[] arr, int givenSum)
+            {
+                int sum = arr[0];
+                int start = 0;
+
+                for(int i = 1; i < arr.Length; i++)
+                {
+                    while(sum > givenSum && start < i)
+                    {
+                        sum = sum - arr[start];
+                        start++;
+                    }
+
+                    if( sum == givenSum)
+                    {
+                        for(int k = start; k < i; k++)
+                        {
+                            Console.Write( arr[k] +" , ");
+                        }
+
+                    }
+                    
+                    sum = sum + arr[i];
+                }
             }
         #endregion
     }
