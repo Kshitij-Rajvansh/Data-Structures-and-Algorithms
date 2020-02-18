@@ -272,9 +272,27 @@ namespace Arrays
                         }
 
                     }
-                    
+
                     sum = sum + arr[i];
                 }
+            }
+        #endregion
+
+        #region Function to print the sum of all the sub-arrays of an array
+            /*
+                for [1,2,3] = {1},{2},{3},{1,2},{2,3},{1,2,3}
+                arr[i] = the sub-arrays starting with arr[i] are equal to n-i,
+                arr[i] = the sub-arrays where arr[i] is not first term are equal to (n-i)*i
+            */
+            public static void PrintSumOfAllSubArrays(int[] arr)
+            {
+                int sum = 0;
+                for(int i = 0; i < arr.Length; i++)
+                {
+                    sum += (arr[i] * (arr.Length - i) * (i + 1));
+                }
+
+                Console.WriteLine(sum);
             }
         #endregion
     }
