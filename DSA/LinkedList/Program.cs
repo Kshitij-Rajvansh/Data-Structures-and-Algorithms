@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Text;
 
 namespace linkedlist
 {
@@ -8,27 +7,26 @@ namespace linkedlist
     {
         static void Main(string[] args)
         {
-            LinkedList<int> list = new LinkedList<int>();
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
+            //LinkedList<int> list = new LinkedList<int>();
+            //list.AddFirst(1);
+            //list.AddLast(2);
+            //list.AddLast(3);
+            //list.AddFirst(5);
 
-            list.Remove(2);
+            //foreach (var item in list)
+            //{
+            //    Console.Write(item + "-->");
+            //}
 
-            foreach (int item in list)
-            {
-                Console.Write(item + "-->");
-            }
-            // LinkedListNode<int> single = list.First;
-            // LinkedListNode<int> twice = list.First;
+            DoublyLinkedList<int> doublyList = new DoublyLinkedList<int>();
+            doublyList.Add(2);
+            //doublyList.Add(3);
+            //doublyList.Add(4);
+            //doublyList.Add(5);
 
-            // while(twice.Next != null && twice.Next.Next != null)
-            // {
-            //     single = single.Next;
-            //     twice = twice.Next.Next;
-            // }
+            doublyList.Remove(4);
 
-            // Console.WriteLine("The middle element of linked list is : " + single.Value);
+            Console.ReadLine();
         }
     }
 }
