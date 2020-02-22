@@ -10,8 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {1,2,3,4,5};
-            SubArrayWithSum(arr,7);
+            int[] arr = new int[] {5,-10,6,90,3};
+            PrintMaxSumOfConsecutive(arr, 2);            
 
             Console.ReadLine();
         }
@@ -294,6 +294,33 @@ namespace Arrays
 
                 Console.WriteLine(sum);
             }
+        #endregion
+
+        #region Function to print the max sum of K consecutive numbers in the given array
+        public static void PrintMaxSumOfConsecutive(int[] arr, int k)
+        {
+            int maxSum = Int32.MinValue;
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+                int sum = 0;
+
+                for(int j = i; j < (k+i); j++)
+                {
+                    if(j < arr.Length)
+                    {
+                        sum = sum + arr[j];
+                    }
+                }
+
+                if(sum > maxSum)
+                {
+                    maxSum = sum;
+                }
+            }
+
+            Console.WriteLine(maxSum);
+        }
         #endregion
     }
 }
