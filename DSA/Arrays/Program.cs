@@ -10,8 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {1,2,3,4,5};
-            SubArrayWithSum(arr,7);
+            int[] arr = new int[] {2,3,3,1,1,4};
+            CountFrequency(arr);           
 
             Console.ReadLine();
         }
@@ -294,6 +294,189 @@ namespace Arrays
 
                 Console.WriteLine(sum);
             }
+        #endregion
+
+        #region Function to print the max sum of K consecutive numbers in the given array
+        public static void PrintMaxSumOfConsecutive(int[] arr, int k)
+        {
+            int maxSum = Int32.MinValue;
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+                int sum = 0;
+
+                for(int j = i; j < (k+i); j++)
+                {
+                    if(j < arr.Length)
+                    {
+                        sum = sum + arr[j];
+                    }
+                }
+
+                if(sum > maxSum)
+                {
+                    maxSum = sum;
+                }
+            }
+
+            Console.WriteLine(maxSum);
+        }
+        #endregion
+
+        #region Function to find the smallest positive number
+
+        //using hash table
+        public static void SmallestPositiveNumber1(int[] arr)
+        {
+            Dictionary<int , int> hashTable = new Dictionary<int, int>();
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] > 0)
+                {
+                    if(hashTable.ContainsKey(arr[i]))
+                    {
+                        int val = hashTable[arr[i]];
+                        hashTable.Remove(arr[i]);
+                        hashTable.Add(arr[i], val+1);
+                    }
+                    else
+                    {
+                        hashTable.Add(arr[i], 1);
+                    }
+                }
+            }
+
+            int index = 1;
+            bool flag = true;
+
+            while(flag)
+            {
+                if(!hashTable.ContainsKey(index))
+                {
+                    Console.WriteLine(index);
+                    flag = false;
+                }
+                index++;
+            }
+        }
+
+        // in constant space and 0(n) time
+        public static void SmallestPositiveNumber2(int[] arr)
+        {
+            int start = 0;
+            int end = arr.Length - 1;
+
+            while(start <= end)
+            {
+                if(arr[start] > 0 && arr[end] > 0)
+                {
+                    start++;
+                }
+                else if(arr[start] <= 0 && arr[end] > 0)
+                {
+                    int temp = arr[start];
+                    arr[start] = arr[end];
+                    arr[end] = temp;
+                    
+                    start++;
+                    end--;
+                }
+                else
+                {
+                    start++;
+                    end--;
+                }
+            }
+            
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] < 0)
+                {
+                    arr[i] = 5000;
+                }
+            }
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] > 0 && arr[i] < arr.Length)
+                {
+                    arr[arr[i]] = arr[arr[i]] * -1;
+                }
+            }
+
+            for(int i = 1; i < arr.Length; i++)
+            {
+                if(arr[i] > 0)
+                {
+                    Console.WriteLine(i);
+                    break;
+                }
+            }
+        }
+        #endregion
+
+        #region
+        // O(n) and O(n) space solution
+        public static void CountFrequencyUsingHashTable(int[] arr)
+        {
+            Dictionary<int, int> hashTable = new Dictionary<int, int>();
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if(hashTable.ContainsKey(arr[i]))
+                {
+                    int val = hashTable[arr[i]];
+
+                    hashTable.Remove(arr[i]);
+                    hashTable.Add(arr[i], val+1);
+                }
+                else
+                {
+                    hashTable.Add(arr[i] , 1);
+                }
+            }
+
+            foreach( var key in hashTable)
+            {
+                Console.WriteLine(key.Key + " --> " + key.Value );
+            }
+        } 
+
+        // O(n) time and O(1) space
+        public static void CountFrequency(int[] arr)
+        {
+            int i = 0;
+
+            while(i < arr.Length)
+            {
+                if(arr[i] <= 0)
+                {
+                    i++;   
+                }
+                else
+                {
+                    int index = arr[i] -1;
+
+                    if(arr[index] > 0)
+                    {
+                        arr[i] = arr[index];
+                        arr[index] = -1;
+                    }
+                    else
+                    {
+                        arr[index]--;
+                        arr[i] = 0;
+                        i++;
+                    }
+                }
+            }
+
+            for(int j = 0; j < arr.Length; j++)
+            {
+                Console.WriteLine(j +1 + " --> " + arr[j] * -1);
+            }
+        }
         #endregion
     }
 }

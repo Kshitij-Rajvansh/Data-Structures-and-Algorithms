@@ -1,11 +1,22 @@
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.exe
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.deps.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.runtimeconfig.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.runtimeconfig.dev.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.dll
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\bin\Debug\netcoreapp3.1\linkedlist.pdb
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\obj\Debug\netcoreapp3.1\linkedlist.AssemblyInfoInputs.cache
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\obj\Debug\netcoreapp3.1\linkedlist.AssemblyInfo.cs
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\obj\Debug\netcoreapp3.1\linkedlist.dll
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\obj\Debug\netcoreapp3.1\linkedlist.pdb
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\LinkedList\obj\Debug\netcoreapp3.1\linkedlist.csprojAssemblyReference.cache
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.exe
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.deps.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.runtimeconfig.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.runtimeconfig.dev.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.dll
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.pdb
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.AssemblyInfoInputs.cache
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.AssemblyInfo.cs
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.dll
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.pdb
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.csprojAssemblyReference.cache
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.deps.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.runtimeconfig.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.runtimeconfig.dev.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.dll
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/bin/Debug/netcoreapp3.1/linkedlist.pdb
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.csprojAssemblyReference.cache
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.AssemblyInfoInputs.cache
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.AssemblyInfo.cs
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.dll
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/LinkedList/obj/Debug/netcoreapp3.1/linkedlist.pdb

@@ -1,11 +1,22 @@
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.exe
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.deps.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.dev.json
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.dll
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\bin\Debug\netcoreapp3.1\Stack.pdb
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\obj\Debug\netcoreapp3.1\Stack.csprojAssemblyReference.cache
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfoInputs.cache
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfo.cs
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\obj\Debug\netcoreapp3.1\Stack.dll
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\Stack\obj\Debug\netcoreapp3.1\Stack.pdb
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.exe
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.deps.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.runtimeconfig.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.runtimeconfig.dev.json
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.dll
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.pdb
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.csprojAssemblyReference.cache
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.AssemblyInfoInputs.cache
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.AssemblyInfo.cs
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.dll
+C:/Kshitij/Google/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.pdb
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.deps.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.runtimeconfig.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.runtimeconfig.dev.json
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.dll
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/bin/Debug/netcoreapp3.1/Stack.pdb
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.csprojAssemblyReference.cache
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.AssemblyInfoInputs.cache
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.AssemblyInfo.cs
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.dll
+/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Stack/obj/Debug/netcoreapp3.1/Stack.pdb
