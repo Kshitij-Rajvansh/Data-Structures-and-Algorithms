@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "LinkedList/1.0.0": {
+      "BinaryTrees/1.0.0": {
         "runtime": {
-          "LinkedList.dll": {}
+          "BinaryTrees.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "LinkedList/1.0.0": {
+    "BinaryTrees/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

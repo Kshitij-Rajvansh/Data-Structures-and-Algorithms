@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\LinkedList.csproj": {}
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\BinaryTrees\\BinaryTrees.csproj": {}
   },
   "projects": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\LinkedList.csproj": {
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\BinaryTrees\\BinaryTrees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\LinkedList.csproj",
-        "projectName": "LinkedList",
-        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\BinaryTrees\\BinaryTrees.csproj",
+        "projectName": "BinaryTrees",
+        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\BinaryTrees\\BinaryTrees.csproj",
         "packagesPath": "C:\\Users\\kshrajva\\.nuget\\packages\\",
-        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\obj\\",
+        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\BinaryTrees\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kshrajva\\AppData\\Roaming\\NuGet\\NuGet.Config",
