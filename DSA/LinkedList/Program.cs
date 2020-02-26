@@ -8,14 +8,21 @@ namespace linkedlist
         static void Main(string[] args)
         {
             LinkedList<int> list = new LinkedList<int>();
-            list.AddFirst(1);
-            list.AddLast(0);
-            list.AddLast(2);
-            list.Add(1);
-            list.Add(0);
             list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            list.Add(6);
 
-            SortZeroOneTwo(list.Head);
+            Node<int> reversed = ReverseLinkedList(list.Head);
+
+            while (reversed != null)
+            {
+                Console.Write(reversed.Value + "-->");
+                reversed = reversed.Next;
+            }
+
+           
 
             Console.ReadLine();
         }
@@ -69,6 +76,54 @@ namespace linkedlist
                     head = zeroD.Next; 
                     return head;
             }
+        #endregion
+
+        #region Function to find the middle of the linked list
+            public static Node<int> GetMiddleNode(Node<int> head)
+            {
+                if(head == null || head.Next == null)
+                {
+                    return head;
+                }
+                
+                Node<int> slow = head;
+                Node<int> fast = head;
+
+                while(fast.Next != null && fast.Next.Next != null)
+                {
+                    slow = slow.Next;
+                    fast = fast.Next.Next;
+                }
+
+                return slow;
+            }
+        #endregion
+
+        #region Function to reverse a linked list
+            public static Node<int> ReverseLinkedList(Node<int> head)
+            {
+                if(head == null || head.Next == null)
+                {
+                    return null;
+                }
+
+                Node<int> prev = null;
+                Node<int> curr = head;
+                Node<int> next = null;
+
+                while(curr != null)
+                {
+                    next = curr.Next;
+                    curr.Next = prev;
+                    prev = curr;
+                    curr = next;
+                }
+
+                return prev;
+            }
+        #endregion
+
+        #region Function
         #endregion
     }
 }

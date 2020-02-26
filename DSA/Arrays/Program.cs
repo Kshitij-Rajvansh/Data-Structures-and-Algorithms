@@ -10,8 +10,9 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {2,3,3,1,1,4};
-            CountFrequency(arr);           
+            int[] arr = new int[] {-2, 3, 2, -1};
+
+            MaxSubArraySum(arr);
 
             Console.ReadLine();
         }
@@ -416,7 +417,7 @@ namespace Arrays
         }
         #endregion
 
-        #region
+        #region Function to count the frequency of numbers from 1 to n
         // O(n) and O(n) space solution
         public static void CountFrequencyUsingHashTable(int[] arr)
         {
@@ -476,6 +477,64 @@ namespace Arrays
             {
                 Console.WriteLine(j +1 + " --> " + arr[j] * -1);
             }
+        }
+        #endregion
+
+        #region Function To rotate a 2d array(n X n) by 90degree clockwise
+        public static int[,] Rotate2DArray(int[,] arr)
+        {
+            // first transpose the matrix
+            for(int i = 0; i < arr.GetLength(0); i++)
+            {
+                for(int j = i; j < arr.GetLength(1); j++)
+                {
+                    int temp = arr[i,j];
+                    arr[i,j] = arr[j,i];
+                    arr[j,i] = temp;
+                }
+            }
+
+            for(int i = 0; i < arr.GetLength(0); i++)
+            {
+                for(int j = 0, n = arr.GetLength(1); j < (arr.GetLength(1) / 2) && n > (arr.GetLength(1) / 2);  j++, n--)
+                {
+                    int temp = arr[i,j];
+                    arr[i,j] = arr[i,n-1];
+                    arr[i,n-1] = temp;
+                }
+            }
+
+            return arr;
+        }
+        #endregion
+
+        #region Function to find the max subarray sum in given array Kadanes Algorithm
+        public static void MaxSubArraySum(int[] arr)
+        {
+            int maxSum = arr[0];
+            int currentSum = arr[0];
+
+            for(int i = 1; i < arr.Length; i++)
+            {
+                int sum = currentSum + arr[i];
+
+                if(arr[i] > sum)
+                {
+                    currentSum = arr[i];
+                }
+                else
+                {
+                    currentSum = sum;
+                }
+
+                if(currentSum > maxSum)
+                {
+                    maxSum = currentSum;
+                }
+
+            }
+
+            Console.WriteLine(maxSum);
         }
         #endregion
     }
