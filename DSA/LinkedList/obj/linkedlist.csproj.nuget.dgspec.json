@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\linkedlist\\linkedlist.csproj": {}
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\linkedlist.csproj": {}
   },
   "projects": {
-    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\linkedlist\\linkedlist.csproj": {
+    "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\linkedlist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\linkedlist\\linkedlist.csproj",
+        "projectUniqueName": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\linkedlist.csproj",
         "projectName": "linkedlist",
-        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\linkedlist\\linkedlist.csproj",
+        "projectPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\linkedlist.csproj",
         "packagesPath": "C:\\Users\\kshrajva\\.nuget\\packages\\",
-        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\linkedlist\\obj\\",
+        "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kshrajva\\AppData\\Roaming\\NuGet\\NuGet.Config",
