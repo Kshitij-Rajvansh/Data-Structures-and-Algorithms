@@ -6,7 +6,7 @@ namespace matrix
     {
         static void Main(string[] args)
         {
-            int[,] arr = new int[,]{ {1,2,3}, {4,5,6}, {7,8,9} };
+            int[,] arr = new int[,]{ {1,2,4}, {3,4,5}, {8,6,9} };
 
             int sum = MaxSumPath(arr);
         }
@@ -19,15 +19,37 @@ namespace matrix
 
                 while( i < arr.GetLength(0) && j < arr.GetLength(1))
                 {
-                    if(arr[i, j+1] > arr[i+1, j])
+                    if( i+1 < arr.GetLength(0) && j+1 < arr.GetLength(1))
                     {
-                        sum += arr[i, j+1];
-                        j = j+1;
+                        if(arr[i, j+1] > arr[i+1, j])
+                        {
+                            sum += arr[i, j+1];
+                            j = j+1;
+                        }
+                        else
+                        {
+                            sum += arr[i+1, j];
+                            i = i+1;
+                        }
                     }
                     else
                     {
-                        sum += arr[i+1, j];
-                        i = i+1;
+                        if(i+1 >= arr.GetLength(0) )
+                        {
+                            j = j+1;
+                            if(j < arr.GetLength(1))
+                            {
+                                sum += arr[i,j];
+                            }
+                        }
+                        else
+                        {
+                            i = i+1;
+                            if(i < arr.GetLength(0))
+                            {
+                                sum += arr[i,j];
+                            }
+                        }
                     }
                 }
 
