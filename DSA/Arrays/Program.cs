@@ -10,11 +10,11 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {-2, 3, 2, -1};
+            int[] arr = new int[] {800,300,600,650,750};
 
-            MaxSubArraySum(arr);
+            int profit = MaxStockProfit(arr);
 
-            Console.ReadLine();
+            Console.WriteLine(profit);
         }
 
         #region Function to sort the array of 0's , 1's and 2's
@@ -536,6 +536,21 @@ namespace Arrays
 
             Console.WriteLine(maxSum);
         }
+        #endregion
+
+        #region Max stock profit problem
+            public static int MaxStockProfit(int[] arr)
+            {
+                int min = arr[0];
+                int profit = 0;
+                for(int i = 1; i < arr.Length; i++)
+                {
+                    profit = arr[i] - min > profit ? arr[i] - min : profit;
+                    min = arr[i] < min ? arr[i] : min;
+                }
+
+                return profit;
+            }
         #endregion
     }
 }
