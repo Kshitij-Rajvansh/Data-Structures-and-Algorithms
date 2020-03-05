@@ -10,9 +10,9 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {800,300,600,650,750};
+            int[] arr = new int[] {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9};
 
-            int profit = MaxStockProfit(arr);
+            int profit = MinJumpToEnd(arr);
 
             Console.WriteLine(profit);
         }
@@ -550,6 +550,24 @@ namespace Arrays
                 }
 
                 return profit;
+            }
+        #endregion
+
+        #region Minimum jumps to reach the end
+            public static int MinJumpToEnd(int[] arr)
+            {
+                int jumps = 0;
+                int furthest = -1, target = 0;
+                for (int i = 0; i < arr.Length - 1; i++)
+                {
+                    furthest = Math.Max(arr[i] + i, furthest);
+                    if (i == target)
+                    {
+                        jumps++;
+                        target = furthest;
+                    }
+                }
+                return jumps;
             }
         #endregion
     }
