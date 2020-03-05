@@ -1,5 +1,7 @@
 .vscode
 .vs
+**/bin
+**/obj
 *.pdb
 *.exe
 *.dll
