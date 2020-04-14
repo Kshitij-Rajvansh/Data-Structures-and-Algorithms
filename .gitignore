@@ -7,3 +7,5 @@ obj/
 *.exe
 *.dll
 *.dev.json
+*.cache
+*.txt
