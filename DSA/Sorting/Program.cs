@@ -10,7 +10,7 @@ namespace Sorting
 
             Console.WriteLine("Before : [ 3, 5, 2, 4, 9, 10, 7 ]");
 
-            SortingAlgorithms.InsertionSort(arr);
+            SortingAlgorithms.SelectionSort(arr);
 
             foreach (int num in arr)
             {
