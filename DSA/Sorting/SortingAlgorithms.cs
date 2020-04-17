@@ -51,7 +51,7 @@ namespace Sorting
         }
         #endregion
 
-        #region
+        #region Selection Sort
         public static void SelectionSort(int[] arr)
         {
             for(int i = 0; i < arr.Length -1; i++)
@@ -69,6 +69,70 @@ namespace Sorting
                 int temp = arr[i];
                 arr[i] = arr[minPos];
                 arr[minPos] = temp;
+            }
+        }
+        #endregion
+
+        #region Merge Sort
+        public static void MergeSort(int[] arr)
+        {
+            int n = arr.Length;
+
+            if(n < 2)
+            {
+                return;
+            }
+
+            int mid = n / 2;
+            int[] left = new int[mid];
+            int[] right = new int[n - mid];
+
+            for(int i = 0; i <= mid-1; i++)
+            {
+                left[i] = arr[i];
+            }
+            for(int i = mid; i <= n-1; i++)
+            {
+                right[i - mid] = arr[i];
+            }
+
+            MergeSort(left);
+            MergeSort(right);
+            Merge(left, right, arr);
+        }
+
+        public static void Merge(int[] left, int[] right, int[] arr)
+        {
+            int nL = left.Length;
+            int nR = right.Length;
+
+            int i = 0, j = 0, k = 0;
+            
+            while(i < nL && j < nR)
+            {
+                if(left[i] <= right[j])
+                {
+                    arr[k] = left[i];
+                    i++;
+                }
+                else
+                {
+                    arr[k] = right[j];
+                    j++;
+                }
+                k++;
+            }
+            while (i < nL)
+            {
+                arr[k] = left[i];
+                k++;
+                i++;
+            }
+            while (j < nR)
+            {
+                arr[k] = right[j];
+                k++;
+                j++;
             }
         }
         #endregion
