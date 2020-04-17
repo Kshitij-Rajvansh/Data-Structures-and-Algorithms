@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\kshrajva\\.nuget\\packages\\",
         "outputPath": "C:\\Kshitij\\Google\\Data-Structures-and-Algorithms\\DSA\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\kshrajva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

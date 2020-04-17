@@ -15,7 +15,6 @@ C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\bin\Debug\netcor
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\bin\Debug\netcoreapp3.1\linkedlist.runtimeconfig.dev.json
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\bin\Debug\netcoreapp3.1\linkedlist.dll
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\bin\Debug\netcoreapp3.1\linkedlist.pdb
-C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\obj\Debug\netcoreapp3.1\linkedlist.csprojAssemblyReference.cache
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\obj\Debug\netcoreapp3.1\linkedlist.AssemblyInfoInputs.cache
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\obj\Debug\netcoreapp3.1\linkedlist.AssemblyInfo.cs
 C:\Kshitij\Google\Data-Structures-and-Algorithms\DSA\linkedlist\obj\Debug\netcoreapp3.1\linkedlist.dll

@@ -50,5 +50,12 @@ namespace Sorting
             }
         }
         #endregion
+
+        #region Selection Sort
+        public static void SelectionSort(int[] arr)
+        {
+            
+        }
+        #endregion
     }
 }
