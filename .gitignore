@@ -9,3 +9,5 @@ obj/**
 *.dev.json
 *.cache
 *.txt
+*.json
+*.AssemblyInfo.cs
