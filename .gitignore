@@ -1,7 +1,7 @@
 # git rm -r --cached bin
 .vscode
 .vs
-bin/
+bin/**
 obj/**
 *.pdb
 *.exe
