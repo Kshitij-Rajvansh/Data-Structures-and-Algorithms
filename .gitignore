@@ -11,3 +11,6 @@ obj/**
 *.txt
 *.json
 *.AssemblyInfo.cs
+*.dgspec.json
+*.g.targets
+*.g.props
