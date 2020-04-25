@@ -20,7 +20,7 @@
       "outputPath": "/Users/kshitij/Data Structures and Algorithms/Data-Structures-and-Algorithms/DSA/Heap/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kshitij/.nuget/NuGet/NuGet.Config"
+        "/Users/kshitij/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
