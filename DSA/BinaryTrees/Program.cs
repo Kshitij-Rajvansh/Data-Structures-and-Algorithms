@@ -17,7 +17,7 @@ namespace BinaryTrees
             tree.Add(9);
             tree.Add(1);
 
-            tree.PreOrderTraversal(tree.GetRoot());
+            tree.LevelOrderTraversal(tree.GetRoot());
 
             Console.ReadLine();
         }

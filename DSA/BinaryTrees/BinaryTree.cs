@@ -174,6 +174,34 @@ namespace BinaryTrees
             PreOrderTraversal(root.Left);
             PreOrderTraversal(root.Right);
         }
+
+        public void LevelOrderTraversal(BinaryTreeNode<T> root)
+        {
+            if(root == null)
+            {
+                return;
+            }
+
+            Queue<BinaryTreeNode<T>> queue = new Queue<BinaryTreeNode<T>>();
+            
+            queue.Enqueue(root);
+            
+            while (queue.Count != 0)
+            {
+                BinaryTreeNode<T> current = queue.Peek();
+                Console.Write(queue.Dequeue().Value + " --> ");
+
+                if(current.Left != null)
+                {
+                    queue.Enqueue(root.Left);
+                }
+                if(current.Right != null)
+                {
+                    queue.Enqueue(root.Right);
+                }
+                queue.Dequeue();
+            }
+        }
         #endregion
         public IEnumerator<T> GetEnumerator()
         {

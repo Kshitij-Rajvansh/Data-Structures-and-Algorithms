@@ -10,11 +10,13 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9};
+            int[] arr = new int[] {1, 2,3,4,5};
+            RotateRightByK(arr, 2);
 
-            int profit = MinJumpToEnd(arr);
-
-            Console.WriteLine(profit);
+            foreach(int item in arr)
+            {
+                Console.Write(item + " ");
+            }
         }
 
         #region Function to sort the array of 0's , 1's and 2's
