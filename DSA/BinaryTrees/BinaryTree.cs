@@ -162,7 +162,7 @@ namespace BinaryTrees
         #endregion
 
         #region Traversal
-        public void PreOrderTraversal(BinaryTreeNode<T> root)
+        public void PreOrderTraversalRecursively(BinaryTreeNode<T> root)
         {
             if(root == null)
             {
@@ -171,8 +171,33 @@ namespace BinaryTrees
 
             Console.Write(root.Value + " --> ");
 
-            PreOrderTraversal(root.Left);
-            PreOrderTraversal(root.Right);
+            PreOrderTraversalRecursively(root.Left);
+            PreOrderTraversalRecursively(root.Right);
+        }
+
+        public void PreOrderTraversalIteratively(BinaryTreeNode<T> root)
+        {
+            if(root != null)
+            {
+                Stack<BinaryTreeNode<T>> treeNodeStack = new Stack<BinaryTreeNode<T>>();
+                treeNodeStack.Push(root);
+
+                while(treeNodeStack.Count > 0)
+                {
+                    BinaryTreeNode<T> current = treeNodeStack.Peek();
+                    Console.Write(current.Value + " --> ");
+                    treeNodeStack.Pop();
+                    
+                    if(current.Right != null)
+                    {
+                        treeNodeStack.Push(current.Right);
+                    }
+                    if(current.Left != null)
+                    {
+                        treeNodeStack.Push(current.Left);
+                    }
+                }
+            }
         }
 
         public void LevelOrderTraversal(BinaryTreeNode<T> root)
