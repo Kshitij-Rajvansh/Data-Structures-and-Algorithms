@@ -189,15 +189,15 @@ namespace BinaryTrees
             while (queue.Count != 0)
             {
                 BinaryTreeNode<T> current = queue.Peek();
-                Console.Write(queue.Dequeue().Value + " --> ");
+                Console.Write(current.Value + " --> ");
 
                 if(current.Left != null)
                 {
-                    queue.Enqueue(root.Left);
+                    queue.Enqueue(current.Left);
                 }
                 if(current.Right != null)
                 {
-                    queue.Enqueue(root.Right);
+                    queue.Enqueue(current.Right);
                 }
                 queue.Dequeue();
             }
